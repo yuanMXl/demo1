@@ -23,7 +23,7 @@ namespace demo
             options.Margin = 1;
             writer.Options = options;
             Bitmap map = writer.Write(text);
-            string filename = @"E:\ymx\img\qr.png";
+            string filename = @"C:\Users\Administrator\source\repos\demo\demo\img\qr.png";
             map.Save(filename, ImageFormat.Png);
             map.Dispose();
         }

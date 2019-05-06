@@ -1,7 +1,7 @@
-﻿@{
+﻿
+@{
     Layout = null;
 }
-
 <!DOCTYPE html>
 
 <html>
@@ -12,9 +12,10 @@
 <body>
     <div>
         <form action="/QR/uploadimg" method="post" enctype="multipart/form-data">
-            <input type="file" name="file1" />
+            <input type="file" name="file1" value="选择图片" />
             <input type="submit" value="提交" />
+            <a href="~/QR/browseimg">查看图片</a>
         </form>
     </div>
-</body>  
+</body>
 </html>
